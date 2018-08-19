@@ -1,0 +1,10 @@
+<div class="container">
+  <div>
+    <app-shopping-edit></app-shopping-edit>
+    <hr>
+    <div *ngFor="let ingredient of ingredients">
+      <a href="#">{{ ingredient.name }} * {{ ingredient.amount }}</a>
+    </div>
+    
+  </div>
+</div>
